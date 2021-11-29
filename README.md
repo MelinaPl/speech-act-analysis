@@ -54,6 +54,14 @@ The zipped file `data_annotated_complete.tar.gz` contains all 600 annotated XML 
 
 ## Code
 
+## Annotations
+
+### Coarse-grained Speech Acts
+
+### Fine-grained Speech Acts
+
+### Sentence Types 
+
 ## References
 
 Klie, J.-C., Bugert, M., Boullosa, B., de Castilho, R. E., & Gurevych, I. (2018,
