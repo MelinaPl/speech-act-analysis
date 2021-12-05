@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
 
+"""
+@author: Melina Plakidis
+"""
+
 import os
 import json
 import re 
@@ -12,7 +16,7 @@ import csv
 
 
 with open("data.json", 'r') as inp:
-    data = json.load(inp)
+    dataset = json.load(inp)
     print(len(dataset)) # zurzeit 589
     for tweet in dataset:
         print(tweet) # filename
@@ -20,7 +24,8 @@ with open("data.json", 'r') as inp:
         print(doc["tweet"]["scount"]) # prints int of sentence count
 
 
-# frequency sentence types for each speech act type
+# count sentences in offensive language categories and write in table
+        
 with open("data.json", 'r') as inp, open("statistics_hs_senttype.tsv", "a", encoding = "utf8") as out:
     data = json.load(inp)
     header = ['','Other', 'Implicit', 'Explicit', 'Abuse', 'Profanity', 'Insult', "Total"]
@@ -55,6 +60,9 @@ with open("data.json", 'r') as inp, open("statistics_hs_senttype.tsv", "a", enco
     no_sents = ['Number of sentences', other_count, impl_count, expl_count, ab_count, pr_count, in_count, total]
     writer.writerow(no_sents)
 
+
+# example how sentences were counted for each annotation class for every 
+# offensive language category
 with open("data.json", 'r') as inp, open("statistics_hs_stype_fine.tsv", "a", encoding = "utf8") as out:
     data = json.load(inp)
     writer = csv.writer(out,dialect='excel-tab')
@@ -63,7 +71,6 @@ with open("data.json", 'r') as inp, open("statistics_hs_stype_fine.tsv", "a", en
     writer.writerow(header)
     other_count, impl_count, expl_count, ab_count, pr_count, in_count, total = 0,0,0,0,0,0,0
     for ele in data:
-        # now search for coarse grained assertives
         name = ele
         tweet = data[ele]
         for value in tweet.values():
@@ -72,8 +79,7 @@ with open("data.json", 'r') as inp, open("statistics_hs_stype_fine.tsv", "a", en
                 stype = sentences[sentence]['stype']
                 coarse = sentences[sentence]['coarse']
                 fine = sentences[sentence]['fine']
-                # ["alt-f", "decl", "excl", "f", "frag", "hashtag", "imp", "intj", ""]
-                if stype == "alt-f" and :
+                if stype == "alt-f":
                     total += 1
                     if "other" in name:
                             hs_type = "other"
