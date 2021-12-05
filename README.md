@@ -56,9 +56,34 @@ The zipped file `data_annotated_complete.tar.gz` contains all 600 annotated XML 
 
 ## Annotations
 
-### Coarse-grained Speech Acts
+### Speech Acts
 
-### Fine-grained Speech Acts
+Coarse-grained | Fine-grained | Examples |
+| ----------- | ----------- | ----------- | 
+Assertive | Assert | “Genderstudies stehen in ihrer 20 jährigen Existenz stärker im Konflikt mit den existierenden Wissenschaften als alles davor.” | 
+| | Sustain  | “Er geht mir ziemlich auf den Keks, aber wegen Vorstehendem habe ich ihn noch nicht einfach geblockt!” | 
+ |  | Guess  | “Möglicherweise bin ich der Einzige, der den heterosexuellen Mann vor dem Feminismus retten kann.” | 
+ |  Predict  | “Da wird mal wieder stark Übertrieben, es werden paar hundert wenn es hoch kommt | 
+ |  | Agree |  “@_a_c_a_t_ das ist ein punkt, stimmt.” | 
+  | | Disagree  | “@AcarLukas @allesevolution ...Dem Fehlschluss dass eine These bewiesen ist, wenn sie nicht zu 100% entkräftet werden kann. \|LBR\| Leider funktioniert das nicht so.”
+ Expressive  | Rejoice  | “gut dass es #ORF gibt” | 
+  | | Complain |  “Selten son Dreck im Fernsehen gesehen wie diese #krone18” | 
+  | | Wish  | “Schönen Freitag.” | 
+ | |  Apologize  | “btw sorry ob meiner polemik im ausgangstweet” | 
+ |  | Thank  | “Danke für die Aufklärung”  | 
+ |  | expressEmoji  | “:upside_down_face:” | 
+Directive  | Require  | “Schämen Sie sich.” | 
+ | |  Request  | “Warum veröffentlicht ihr keine Bilder von linken Anarchisten?” | 
+ |  | Suggest  | “Die linke,deutsch/islamische #Bundesregierung kann den #korantreuen #Moslems #IS #Hamas doch gleich den Schlüssel zu Deutschland überreichen.” | 
+ |  | Greet  | “Hallo liebe Freunde des deutschen Handballsports” | 
+ |  | Address  | “@DanielDOrville2 @jogginghosenafa” | 
+Commissive |  Engage |  “Ich gehe jetzt pennen.” | 
+ |  | Accept*  | “Ja, das kann ich für dich machen” | 
+ |  | Refuse  | “Ein echter Mann und echte Kinder? Gott behüte.” | 
+ |  | Threat  |  “euch zeigen wir noch wo es lang geht.” | 
+Other  | Other | “‘Die Kolonialisierung der Studentenhirne - Lyzis Welt über 40 Jahre kritische Poptheorie’”, “#Migrationsbericht” | 
+Unsure  | Unsure |  “@Snakecleaver @Metalwilli OK.....!” | 
+
 
 ### Sentence Types 
 
