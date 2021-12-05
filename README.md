@@ -81,7 +81,7 @@ Coarse-grained | Fine-grained | Examples |
 Assertive | Assert | “Genderstudies stehen in ihrer 20 jährigen Existenz stärker im Konflikt mit den existierenden Wissenschaften als alles davor.” | 
 | | Sustain  | “Er geht mir ziemlich auf den Keks, aber wegen Vorstehendem habe ich ihn noch nicht einfach geblockt!” | 
  |  | Guess  | “Möglicherweise bin ich der Einzige, der den heterosexuellen Mann vor dem Feminismus retten kann.” | 
- |  Predict  | “Da wird mal wieder stark Übertrieben, es werden paar hundert wenn es hoch kommt | 
+ | | Predict  | “Da wird mal wieder stark Übertrieben, es werden paar hundert wenn es hoch kommt | 
  |  | Agree |  “@_a_c_a_t_ das ist ein punkt, stimmt.” | 
   | | Disagree  | “@AcarLukas @allesevolution ...Dem Fehlschluss dass eine These bewiesen ist, wenn sie nicht zu 100% entkräftet werden kann. \|LBR\| Leider funktioniert das nicht so.”
  Expressive  | Rejoice  | “gut dass es #ORF gibt” | 
