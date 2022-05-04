@@ -124,6 +124,8 @@ Hashtag |  Initial #, only annotated if not part of a sentence | “#CDUbpt18”
 
 ## References
 
+Austin, J. L. (1962). How to Do Things with Words. Oxford University Press.
+
 Compagno, D., Epure, E., Deneckere, R., & Salinesi, C. (2018). Exploring
 Digital Conversation Corpora with Process Mining. Corpus Pragmatics,
 2, 193–215. doi: 10.1007/s41701-018-0030-6
@@ -137,6 +139,9 @@ Retrieved from https://aclanthology.org/C18-2002
 
 Leech, G., McEnery, T., & Weisser, M. (2003). SPAAC Speech-Act Annotation
 Scheme. University of Lancaster, Technical Report.
+
+Searle, J. R. (1979). Expression and Meaning: Studies in the Theory of Speech Acts. Cambridge University
+Press, Cambridge.
 
 Struß, J. M., Siegel, M., Ruppenhofer, J., Wiegand, M., & Klenner, M. (2019).
 Overview of GermEval Task 2, 2019 Shared Task on the Identification
