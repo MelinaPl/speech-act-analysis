@@ -46,16 +46,6 @@ They were transformed into this format to count occurrences for a statistical an
 
 The zipped file `data_annotated_complete.tar.gz` contains all 600 annotated XML files. 
 
-### Original
-
-- [Speech+Act+Analysis_curated_documents_2021-10-03_1232.zip](https://github.com/MelinaPl/speech_act_analysis/blob/main/data/Speech%2BAct%2BAnalysis_curated_documents_2021-10-03_1232.zip)
-
-    - contains the original download format of 589 annotated Tweets (annotations in XML)
-
-- [Speech+Act+Analysis+PII_curated_documents_2021-10-03_1645.zip](https://github.com/MelinaPl/speech_act_analysis/blob/main/data/Speech%2BAct%2BAnalysis%2BPII_curated_documents_2021-10-03_1645.zip)
-
-    - contains the original download format of 11 annotated Tweets that were annotated seperately due to an error (annotations in XML)
-
 ## Code
 
 All files can be found in [src/](https://github.com/MelinaPl/speech-act-analysis/tree/main/src)
