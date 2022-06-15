@@ -14,7 +14,12 @@ The dataset is available in different formats: JSON, XML and the original downlo
 
 ### JSON
 
-The file data.json contains all 600 annotated tweets in the following format:
+There are two types of JSON files available for download: 
+
+- [annotations_without_text.json](https://github.com/MelinaPl/speech-act-analysis/blob/main/data/annotations_without_text.json)
+- [annotations_with_text.json](https://github.com/MelinaPl/speech-act-analysis/blob/main/data/annotations_with_text.json)
+
+The files each contain all 600 annotated tweets in the following format:
 
 ```
 {
@@ -39,8 +44,6 @@ The file data.json contains all 600 annotated tweets in the following format:
 
 ```
 
-
-They were transformed into this format to count occurrences for a statistical analysis.
 
 ### XML
 
