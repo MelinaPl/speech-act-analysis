@@ -7,6 +7,13 @@ From each of the six classes (implicit, explicit, profanity, insult, abuse, othe
 - [Link](https://projects.fzai.h-da.de/iggsa/wp-content/uploads/2019/08/germeval2019GoldLabelsSubtask1_2.txt) to original data from subtask 1 & 2
 - [Link](https://projects.fzai.h-da.de/iggsa/wp-content/uploads/2019/08/germeval2019GoldLabelsSubtask3.txt) to original data from subtask 3 
 
+## Note: New Version (1.1) Available (Fixed Bugs)
+
+13.10.2023: Upload of new version 1.1 of the dataset which contain bug fixes.
+
+Dataset available [here](https://github.com/MelinaPl/speech-act-analysis/blob/main/data/version_1-1.json)
+
+For a documentation of the changes, see document [version_1-1_changes.md](https://github.com/MelinaPl/speech-act-analysis/blob/main/version_1-1_changes.md). Version 1.1 is only available in JSON format. Please do not use the old version as it contains some bugs that have been fixed in version 1.1.
 
 ## Dataset 
 
@@ -74,9 +81,9 @@ Coarse-grained | Fine-grained | Examples |
 Assertive | Assert | “Genderstudies stehen in ihrer 20 jährigen Existenz stärker im Konflikt mit den existierenden Wissenschaften als alles davor.” | 
 | | Sustain  | “Er geht mir ziemlich auf den Keks, aber wegen Vorstehendem habe ich ihn noch nicht einfach geblockt!” | 
  |  | Guess  | “Möglicherweise bin ich der Einzige, der den heterosexuellen Mann vor dem Feminismus retten kann.” | 
- | | Predict  | “Da wird mal wieder stark Übertrieben, es werden paar hundert wenn es hoch kommt | 
- |  | Agree |  “@_a_c_a_t_ das ist ein punkt, stimmt.” | 
-  | | Disagree  | “@AcarLukas @allesevolution ...Dem Fehlschluss dass eine These bewiesen ist, wenn sie nicht zu 100% entkräftet werden kann. \|LBR\| Leider funktioniert das nicht so.”
+ | | Predict  | “es werden paar hundert wenn es hoch kommt” | 
+ |  | Agree |  “das ist ein punkt, stimmt.” | 
+  | | Disagree  | (begin context) *@AcarLukas @allesevolution ...Dem Fehlschluss dass eine These bewiesen ist, wenn sie nicht zu 100% entkräftet werden kann.* (end context) “\|LBR\| Leider funktioniert das nicht so.”
  Expressive  | Rejoice  | “gut dass es #ORF gibt” | 
   | | Complain |  “Selten son Dreck im Fernsehen gesehen wie diese #krone18” | 
   | | Wish  | “Schönen Freitag.” | 
@@ -90,10 +97,10 @@ Directive  | Require  | “Schämen Sie sich.” |
  |  | Address  | “@DanielDOrville2 @jogginghosenafa” | 
 Commissive |  Engage |  “Ich gehe jetzt pennen.” | 
  |  | Accept*  | “Ja, das kann ich für dich machen” | 
- |  | Refuse  | “Ein echter Mann und echte Kinder? Gott behüte.” | 
+ |  | Refuse  | (begin context) *Ein echter Mann und echte Kinder?* (end context) “Gott behüte.” | 
  |  | Threat  |  “euch zeigen wir noch wo es lang geht.” | 
-Other  | Other | “‘Die Kolonialisierung der Studentenhirne - Lyzis Welt über 40 Jahre kritische Poptheorie’”, “#Migrationsbericht” | 
-Unsure  | Unsure |  “@Snakecleaver @Metalwilli OK.....!” | 
+Other  | Other | “Next up: |LBR| ‘Die Kolonialisierung der Studentenhirne - Lyzis Welt über 40 Jahre kritische Poptheorie’”, “#Migrationsbericht” | 
+Unsure  | Unsure |  “OK.....!” | 
 
 
 ### Sentence Types 
