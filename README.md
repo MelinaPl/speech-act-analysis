@@ -89,7 +89,7 @@ Assertive | Assert | “Genderstudies stehen in ihrer 20 jährigen Existenz stä
   | | Wish  | “Schönen Freitag.” | 
  | |  Apologize  | “btw sorry ob meiner polemik im ausgangstweet” | 
  |  | Thank  | “Danke für die Aufklärung”  | 
- |  | expressEmoji  | “:upside_down_face:” | 
+ |  | expressEmoji  | “🙃” | 
 Directive  | Require  | “Schämen Sie sich.” | 
  | |  Request  | “Warum veröffentlicht ihr keine Bilder von linken Anarchisten?” | 
  |  | Suggest  | “Die linke,deutsch/islamische #Bundesregierung kann den #korantreuen #Moslems #IS #Hamas doch gleich den Schlüssel zu Deutschland überreichen.” | 
@@ -99,7 +99,7 @@ Commissive |  Engage |  “Ich gehe jetzt pennen.” |
  |  | Accept*  | “Ja, das kann ich für dich machen” | 
  |  | Refuse  | (begin context) *Ein echter Mann und echte Kinder?* (end context) “Gott behüte.” | 
  |  | Threat  |  “euch zeigen wir noch wo es lang geht.” | 
-Other  | Other | “Next up: |LBR| ‘Die Kolonialisierung der Studentenhirne - Lyzis Welt über 40 Jahre kritische Poptheorie’”, “#Migrationsbericht” | 
+Other  | Other | “#Migrationsbericht” | 
 Unsure  | Unsure |  “OK.....!” | 
 
 
