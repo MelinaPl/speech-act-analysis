@@ -4,9 +4,6 @@ This repository provides an annotated dataset which constitutes a subset of 600 
 
 From each of the six classes (implicit, explicit, profanity, insult, abuse, other), 100 tweets were randomly collected. For the two classes implicit and explicit, the 2019 gold standard files of the test data of subtask 3 were used and for the other four classes, the 2019 gold standard files of the test data from subtask 1 & 2 were used. For both test datasets, the data was shuffled using the random package from python and for each class, the first 100 occurrences were selected. Every tweet was saved as a text file which was named after the following scheme: [dataSource]“\_Tweet\_”[idNew]“\_”[idOld]“\_”[offensiveCategory]“.txt” (example: ‘s3\_Tweet\_99\_731\_implicit.txt’). Due to an error, eleven tweets had to be removed and replaced with new tweets. They were taken from the remaining set of randomly selected tweets. As an annotation tool, the open source tool INCEpTION (Klie, Bugert, Boullosa, de Castilho, & Gurevych, 2018) was chosen.
 
-- [Link](https://projects.fzai.h-da.de/iggsa/wp-content/uploads/2019/08/germeval2019GoldLabelsSubtask1_2.txt) to original data from subtask 1 & 2
-- [Link](https://projects.fzai.h-da.de/iggsa/wp-content/uploads/2019/08/germeval2019GoldLabelsSubtask3.txt) to original data from subtask 3 
-
 ## Note: New Version (1.1) Available (Fixed Bugs)
 
 13.10.2023: Upload of new version 1.1 of the dataset which contain bug fixes.
@@ -71,7 +68,7 @@ The subsequent annotation scheme is mainly inspired by Searle (1979) and Compagn
 
 The following examples are all taken from the data except for the example of the class *Accept* (marked with an asterisk)
 
-- [Link](https://corpling.uis.georgetown.edu/wiki/doku.php?id=gum:tokenization_segmentation) to the documentation of the Georgetown University Multilayer Corpus 
+- [Link](https://wiki.gucorpling.org/gum/tokenization_segmentation) to the documentation of the Georgetown University Multilayer Corpus 
 - [Link](https://github.com/amir-zeldes/gum) to the Github repository of the Georgetown University Multilayer Corpus (Zeldes, 2017)
 
 ### Speech Acts
