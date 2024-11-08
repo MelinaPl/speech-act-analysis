@@ -55,7 +55,7 @@ The zipped file `data_annotated_complete.tar.gz` contains all 600 annotated XML 
 
 ## Code
 
-All files can be found in [src/](https://github.com/MelinaPl/speech-act-analysis/tree/main/src)
+All files can be found in src/
 
 - `process.py`: shows how the data from the GermEval shared task was processed
 - `statistics.py`: shows examples of how the data was retrieved for the statistical analysis
