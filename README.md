@@ -73,8 +73,6 @@ The following examples are all taken from the data except for the example of the
 
 ### Speech Acts
 
-#### Speech Acts
-
 - **Assertive**: Assert, Sustain, Guess, Predict, Agree, Disagree
 - **Expressive**: Rejoice, Complain, Wish, Apologize, Thank, expressEmoji
 - **Directive**: Require, Request, Suggest, Greet, Address 
