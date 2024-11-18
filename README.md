@@ -73,31 +73,40 @@ The following examples are all taken from the data except for the example of the
 
 ### Speech Acts
 
-Coarse-grained | Fine-grained | Examples |
+#### Speech Acts
+
+- **Assertive**: Assert, Sustain, Guess, Predict, Agree, Disagree
+- **Expressive**: Rejoice, Complain, Wish, Apologize, Thank, expressEmoji
+- **Directive**: Require, Request, Suggest, Greet, Address 
+- **Commissive**: Engage, Accept, Refuse, Threat
+- **Unsure**: Unsure
+- **Other**: Other 
+
+| Speech Acts | Description | Examples |
 | ----------- | ----------- | ----------- | 
-Assertive | Assert | “Genderstudies stehen in ihrer 20 jährigen Existenz stärker im Konflikt mit den existierenden Wissenschaften als alles davor.” | 
-| | Sustain  | “Er geht mir ziemlich auf den Keks, aber wegen Vorstehendem habe ich ihn noch nicht einfach geblockt!” | 
- |  | Guess  | “Möglicherweise bin ich der Einzige, der den heterosexuellen Mann vor dem Feminismus retten kann.” | 
- | | Predict  | “es werden paar hundert wenn es hoch kommt” | 
- |  | Agree |  “das ist ein punkt, stimmt.” | 
-  | | Disagree  | (begin context) *@AcarLukas @allesevolution ...Dem Fehlschluss dass eine These bewiesen ist, wenn sie nicht zu 100% entkräftet werden kann.* (end context) “\|LBR\| Leider funktioniert das nicht so.”
- Expressive  | Rejoice  | “gut dass es #ORF gibt” | 
-  | | Complain |  “Selten son Dreck im Fernsehen gesehen wie diese #krone18” | 
-  | | Wish  | “Schönen Freitag.” | 
- | |  Apologize  | “btw sorry ob meiner polemik im ausgangstweet” | 
- |  | Thank  | “Danke für die Aufklärung”  | 
- |  | expressEmoji  | “🙃” | 
-Directive  | Require  | “Schämen Sie sich.” | 
- | |  Request  | “Warum veröffentlicht ihr keine Bilder von linken Anarchisten?” | 
- |  | Suggest  | “Die linke,deutsch/islamische #Bundesregierung kann den #korantreuen #Moslems #IS #Hamas doch gleich den Schlüssel zu Deutschland überreichen.” | 
- |  | Greet  | “Hallo liebe Freunde des deutschen Handballsports” | 
- |  | Address  | “@DanielDOrville2 @jogginghosenafa” | 
-Commissive |  Engage |  “Ich gehe jetzt pennen.” | 
- |  | Accept*  | “Ja, das kann ich für dich machen” | 
- |  | Refuse  | (begin context) *Ein echter Mann und echte Kinder?* (end context) “Gott behüte.” | 
- |  | Threat  |  “euch zeigen wir noch wo es lang geht.” | 
-Other  | Other | “#Migrationsbericht” | 
-Unsure  | Unsure |  “OK.....!” | 
+| Assert | To assert something. | "Genderstudies sthene in ihrer 20 jährigen Existenz stärker im Konflikt mit den existierenden Wissenschaften als alles davor.|
+| Sustain | To sustain an assertion with arguments. | Mittlerweile werden deutsche Frauen die Hilfe brauchen abgewiesen, weil nicht genug Plätze vorhanden sind.|
+| Guess | To weaken an assertion by introducing probability/possibility of the assertion. | Möglicherweise bin ich der Einzige, der den heterosexuellen Mann vor dem Feminismus retten kann. |
+| Predict | An assertion that refers to the future. | "es werden paar hundert wenn es hoch kommt"|
+| Agree | Agreeing with something/someone. | "das ist ein punkt, stimmt."|
+| Disagree | Disagreeing with something/someone. | (begin context) *@AcarLukas @allesevolution ...Dem Fehlschluss dass eine These bewiesen ist, wenn sie nicht zu 10\% entkräftet werden kann.* (end context) "\|LBR\| Leider funktioniert das nicht so." |
+| Rejoice | Expressing a positive attitude towards someone/something. | "gut dass es #ORF gibt" |
+| Complain | To complain, e.g., expressing a negative attitude towards something/someone. | "Selten son Dreck im Fernsehen gesehen wie diese #krone18" |
+| Wish | Wishing for something. | "Schönen Freitag." |
+| Apologize | Apologizing to someone for something. | "btw sorry ob meiner polemik im ausgangstweet" |
+| Thank | Thanking someone. | "Danke für die Aufklärung" |
+| expressEmoji | Used for an emoji or series of emojis. | "🙃" |
+| Require | (Strongly) requiring someone to do something. Usually used for commands. | "Schämen Sie sich." |
+| Request | Requesting someone to do something. Usually used for questions. | "Warum veröffentlicht ihr keine Bilder von linken Anarchisten?" |
+| Suggest | Suggesting something to someone. Can be used positively or negatively. | Die linke,deutsch/islamische #Bundesregierung kann den #korantreuen #Moslems #IS #Hamas doch gleich den Schlüssel zu Deutschland überreichen" |
+| Greet | Greeting someone. | "Hallo liebe Freunde des deutschen Handballsports" |
+| Address | Addressing someone. Used for mentions (@xyz). | "@DanielDOrville2 @jogginghosenafa" |
+| Engage | Committing oneself to do something. | "Ich gehe jetzt pennen." |
+| Accept* | Accepting something based on a previous utterance. | "Ja, das kann ich für dich machen" |
+| Refuse | Refusing something based on a previous utterance. | (begin context) *Ein echter Mann und echte Kinder?* (end context) "Gott behüte" |
+| Threat | Threatening someone. | "euch zeigen wir noch wo es lang geht." |
+| Unsure | Used when an utterance in a tweet cannot be classified due to missing or insufficient context. | (begin context) *@Snakecleaver @Metalwilli* (end context) "OK.....!" |
+| Other | Used for speech acts not represented in this annotation scheme. | "#Migrationsbericht" |
 
 
 ### Sentence Types 
