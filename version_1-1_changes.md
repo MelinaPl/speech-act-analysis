@@ -1,4 +1,4 @@
-# Speech Act Analysis: Dataset Version 1.1
+# Dataset Version 1.1
 
 The dataset is currently only available in JSON format. It is availabe [here](https://github.com/MelinaPl/speech-act-analysis/blob/main/data/version_1-1.json).
 
